@@ -1,0 +1,126 @@
+
+
+.myClass {
+    background: purple;
+    flex: 1, 1, 0;
+  }
+
+  .spacer {
+    background: black;
+    width: 250px;
+  }
+
+  .spacer2 {
+    background: black;
+    width: 350px;
+  }
+
+  .myHeader {
+    background: green;
+    flex: auto;
+  }
+
+  .header {
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-end;
+
+    background: #1F2937;
+    height: 150px;
+    flex: 1, 1, auto;
+    gap: 1em;
+  }
+    /* this selector selects all divs inside of .header */
+
+    .myOneClass {
+        flex: 1;
+        max-height: 300px;
+        background-color: aquamarine;
+    }
+
+  .mySquares {
+    border-radius: 2em;
+    border-color: #3882F6;
+    border-width: 1em;
+    background-color: cadetblue;
+    min-height: 10em;
+  }
+
+  .mySquare_holder {
+    flex: 1,1,0;
+    flex-direction: column;
+    justify-content: center;
+    background-color: darkorchid;
+    
+  }
+
+  .myTwoClass {
+    flex: auto;
+    max-height: 300px;
+    flex-direction: row;
+    justify-content: center;
+    background-color: crimson;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3em;
+  }
+
+    
+
+
+
+
+
+  .footer {
+    background: #1F2937;
+    height: 80px;
+    flex: auto;
+  }
+
+  .one {
+    background: #1F2937;
+    flex: auto;
+    height: 400px;
+    display: flex;
+    }
+
+  .two {
+    background: white;
+    flex: auto;
+    height: 500px;
+    display: flex;
+  }
+  .twoInternal {
+    background: white;
+    flex: auto;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .three {
+    background: #E5E7EB;
+    height: 400px;
+    flex: auto;
+    display: flex;
+
+  }
+
+  .four {
+    background: #3882F6;
+    height: 800px;
+    flex: auto;
+    display: flex;
+
+}
+
+.flex-container {
+    display: flex; 
+    flex-direction: column;
+  }
+
+  h2{
+    color: white;
+  }
